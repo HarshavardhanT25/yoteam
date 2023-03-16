@@ -1,0 +1,9 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "INRY"
+    },
+    "libraryName": "yoteam",
+    "generator-version": "4.0.1"
+  }
+}

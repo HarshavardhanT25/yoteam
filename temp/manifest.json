@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "57115b90-ae77-11ed-9af1-950f98d89051",
+  "version": "1",
+  "packageName": "yoteam",
+  "developer": {
+    "name": "INRY",
+    "websiteUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io",
+    "privacyUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "yoteam",
+    "full": "yoteam"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "46d08d15-1aaf-4dae-81bf-a42ade972378",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "yoteamMessageExtension",
+          "title": "yoteam Message Extension",
+          "description": "Description of yoteam Message Extension",
+          "initialRun": true,
+          "type": "action",
+          "context": [
+            "compose"
+          ],
+          "fetchTask": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io"
+  ],
+  "showLoadingIndicator": false
+}

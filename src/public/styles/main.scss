@@ -1,0 +1,72 @@
+body {
+  font-family: "Century Gothic" !important;
+
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.astrick {
+  color: red;
+}
+.l-header {
+  display: flex;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 5em;
+  padding: 1em;
+
+  align-content: space-between;
+  align-items: stretch;
+  justify-content: space-between;
+
+  h1 {
+    box-sizing: border-box;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
+
+.l-article {
+  margin: 3em 2em;
+}
+
+.l-title {
+  flex-grow: 1;
+}
+
+img.logo {
+  width: 100%;
+  min-width: 76px;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.drop-width > span {
+  width: 100%;
+}
+
+.drop-width {
+  width: 100%;
+}
+
+.jw {
+  font-weight: 400 !important;
+}
+
+.imgDropdown > .ui-dropdown__container > ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.imgDropdown > .ui-dropdown__container > ul > li {
+  display: flex;
+  flex-direction: column;
+}
+.imgDropdown > .ui-dropdown__container > ul > li > .ui-box > img {
+  border-radius: 0;
+  width: 6rem;
+}

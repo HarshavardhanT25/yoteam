@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "id": "{{APPLICATION_ID}}",
+  "version": "{{VERSION}}",
+  "packageName": "{{PACKAGE_NAME}}",
+  "developer": {
+    "name": "INRY",
+    "websiteUrl": "https://{{PUBLIC_HOSTNAME}}",
+    "privacyUrl": "https://{{PUBLIC_HOSTNAME}}/privacy.html",
+    "termsOfUseUrl": "https://{{PUBLIC_HOSTNAME}}/tou.html"
+  },
+  "name": {
+    "short": "yoteam",
+    "full": "yoteam"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "{{MICROSOFT_APP_ID}}",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "yoteamMessageExtension",
+          "title": "yoteam Message Extension",
+          "description": "Description of yoteam Message Extension",
+          "initialRun": true,
+          "type": "action",
+          "context": [
+            "compose"
+          ],
+          "fetchTask": true
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{PUBLIC_HOSTNAME}}"
+  ],
+  "showLoadingIndicator": false
+}
