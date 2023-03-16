@@ -3,6 +3,7 @@ node_modules
 
 # do not include the package in Git
 package
+temp
 
 # do not include the local environment files
 # .env
@@ -11,4 +12,4 @@ package
 connectors.json
 
 # do not include dist files
-dist
+# dist
