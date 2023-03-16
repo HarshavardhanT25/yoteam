@@ -11,18 +11,18 @@
     "termsOfUseUrl": "https://{{PUBLIC_HOSTNAME}}/tou.html"
   },
   "name": {
-    "short": "yoteam",
-    "full": "yoteam"
+    "short": "CELEBRATE",
+    "full": "INRY CELEBRATE APPLICATION"
   },
   "description": {
-    "short": "TODO: add short description here",
+    "short": "EMPLOYEE RECOGNITION PLATFORM",
     "full": "TODO: add full description here"
   },
   "icons": {
-    "outline": "icon-outline.png",
-    "color": "icon-color.png"
+    "outline": "Praise-icon.png",
+    "color": "Praise-logo.png"
   },
-  "accentColor": "#D85028",
+  "accentColor": "#26a6bf",
   "configurableTabs": [],
   "staticTabs": [],
   "bots": [],
@@ -34,8 +34,8 @@
       "commands": [
         {
           "id": "yoteamMessageExtension",
-          "title": "yoteam Message Extension",
-          "description": "Description of yoteam Message Extension",
+          "title": "GIVE PRAISE AND WISH",
+          "description": "Employees can give praise and wishes to members of the organizantion",
           "initialRun": true,
           "type": "action",
           "context": [

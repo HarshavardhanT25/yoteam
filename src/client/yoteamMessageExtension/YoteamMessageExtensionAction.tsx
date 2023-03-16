@@ -399,6 +399,7 @@ export const YoteamMessageExtensionAction = () => {
                 alignItems: "center",
                 width: "100%",
                 padding: "10px",
+                justifyContent: "flex-start",
                 overflow: "scroll"
             }}
         >
@@ -494,6 +495,7 @@ export const YoteamMessageExtensionAction = () => {
                 alignItems: "center",
                 width: "100%",
                 padding: "10px",
+                justifyContent: "flex-start",
                 overflow: "scroll"
             }}
         >
@@ -620,27 +622,30 @@ export const YoteamMessageExtensionAction = () => {
 
     if (isLoading) {
         return (
-            <><Provider theme={theme} style={{ padding: "10px 0" }}>
+            <><Provider theme={theme}>
                 {alertVisible && alertStatus === "Success" && (
                     <Alert success content={alertContent} className="alertPad" />
                 )}
                 {alertVisible && alertStatus === "Danger" && (
                     <Alert danger content={alertContent} className="alertPad" />
                 )}
-            </Provider><Provider theme={theme} style={{ height: "100%", display: "flex", justifyContent: "center" }}>
+            </Provider>
+            <Provider theme={theme} style={{ height: "100%", display: "flex", justifyContent: "center" }}>
                 <Loader label="Loading..." />
             </Provider></>
         );
     }
 
     return (
-        <Provider theme={theme}>
+        <><Provider theme={theme}>
             {alertVisible && alertStatus === "Success" && (
                 <Alert success content={alertContent} className="alertPad" />
             )}
             {alertVisible && alertStatus === "Danger" && (
                 <Alert danger content={alertContent} className="alertPad" />
             )}
+        </Provider>
+        <Provider theme={theme} style={{ position: "relative", height: "90%" }}>
             <Menu
                 underlined
                 primary
@@ -657,5 +662,6 @@ export const YoteamMessageExtensionAction = () => {
             />
             {panes[activeIndex].render()}
         </Provider>
+        </>
     );
 };

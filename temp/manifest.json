@@ -2,27 +2,27 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
   "manifestVersion": "1.13",
   "id": "57115b90-ae77-11ed-9af1-950f98d89051",
-  "version": "1",
+  "version": "1.0.0",
   "packageName": "yoteam",
   "developer": {
     "name": "INRY",
-    "websiteUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io",
-    "privacyUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/tou.html"
+    "websiteUrl": "https://7f0b-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io",
+    "privacyUrl": "https://7f0b-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://7f0b-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/tou.html"
   },
   "name": {
-    "short": "yoteam",
-    "full": "yoteam"
+    "short": "CELEBRATE",
+    "full": "INRY CELEBRATE APPLICATION"
   },
   "description": {
-    "short": "TODO: add short description here",
+    "short": "EMPLOYEE RECOGNITION PLATFORM",
     "full": "TODO: add full description here"
   },
   "icons": {
-    "outline": "icon-outline.png",
-    "color": "icon-color.png"
+    "outline": "Praise-icon.png",
+    "color": "Praise-logo.png"
   },
-  "accentColor": "#D85028",
+  "accentColor": "#26a6bf",
   "configurableTabs": [],
   "staticTabs": [],
   "bots": [],
@@ -34,8 +34,8 @@
       "commands": [
         {
           "id": "yoteamMessageExtension",
-          "title": "yoteam Message Extension",
-          "description": "Description of yoteam Message Extension",
+          "title": "GIVE PRAISE AND WISH",
+          "description": "Employees can give praise and wishes to members of the organizantion",
           "initialRun": true,
           "type": "action",
           "context": [
@@ -51,7 +51,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "3d0f-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io"
+    "7f0b-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io"
   ],
   "showLoadingIndicator": false
 }
