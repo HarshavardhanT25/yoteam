@@ -28,7 +28,8 @@
     "msteams-react-base-component": "^4.0.1",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "vercel": "^28.16.15"
   },
   "devDependencies": {
     "@types/debug": "4.1.7",
