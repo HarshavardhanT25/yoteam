@@ -2,8 +2,8 @@
     "version": 2,
     "routes": [
       {
-        "src": "api/messages",
-        "dest": "./dist/web/scripts/client.js"
+        "src": "/(.*)",
+        "dest": "./src/server/server.ts"
       }
     ]
   }
