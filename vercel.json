@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./dist/web"
+        "dest": "./dist/web/scripts/client.js"
       }
     ]
   }
