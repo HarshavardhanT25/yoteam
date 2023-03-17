@@ -12,4 +12,4 @@ temp
 connectors.json
 
 # do not include dist files
-# dist
+dist
