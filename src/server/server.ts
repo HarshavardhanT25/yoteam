@@ -7,9 +7,9 @@ import * as debug from "debug";
 import * as compression from "compression";
 
 // Initialize debug logging module
-const log = debug("msteams");
+// const log = debug("msteams");
 
-log("Initializing Microsoft Teams Express hosted App...");
+// log("Initializing Microsoft Teams Express hosted App...");
 
 // Initialize dotenv, to use .env file settings if existing
 require("dotenv").config();
@@ -64,5 +64,5 @@ express.set("port", port);
 
 // Start the webserver
 http.createServer(express).listen(port, () => {
-    log(`Server running on ${port}`);
+    // log(`Server running on ${port}`);
 });
