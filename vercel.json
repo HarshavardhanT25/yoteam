@@ -1,14 +1,8 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "./dist/web/scripts/client.js",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       {
-        "src": "/(.*)",
+        "src": "/api/messages",
         "dest": "./dist/server.js"
       }
     ]
