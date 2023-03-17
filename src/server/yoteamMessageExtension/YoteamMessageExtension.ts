@@ -6,10 +6,6 @@ import { IMessagingExtensionMiddlewareProcessor } from "botbuilder-teams-messagi
 // Initialize debug logging module
 // const log = debug("msteams");
 
-// export const USERID = `${process.env.REACT_APP_INSTANCE_USERID}`;
-// export const PASSWORD = `${process.env.REACT_APP_INSTANCE_PASSWORD}`;
-// export const INSTANCE = `${process.env.REACT_APP_INSTANCE}`;
-
 @PreventIframe("/yoteamMessageExtension/config.html")
 @PreventIframe("/yoteamMessageExtension/action.html")
 export default class YoteamMessageExtension implements IMessagingExtensionMiddlewareProcessor {
