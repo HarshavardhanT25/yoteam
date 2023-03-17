@@ -4,7 +4,7 @@ import { TurnContext, CardFactory, MessagingExtensionQuery, MessagingExtensionRe
 import { IMessagingExtensionMiddlewareProcessor } from "botbuilder-teams-messagingextensions";
 
 // Initialize debug logging module
-const log = debug("msteams");
+// const log = debug("msteams");
 
 // export const USERID = `${process.env.REACT_APP_INSTANCE_USERID}`;
 // export const PASSWORD = `${process.env.REACT_APP_INSTANCE_PASSWORD}`;
@@ -46,7 +46,7 @@ export default class YoteamMessageExtension implements IMessagingExtensionMiddle
     public async onSettings(context: TurnContext): Promise<void> {
         // take care of the setting returned from the dialog, with the value stored in state
         const setting = context.activity.value.state;
-        log(`New setting: ${setting}`);
+        // log(`New setting: ${setting}`);
         return Promise.resolve();
     }
 

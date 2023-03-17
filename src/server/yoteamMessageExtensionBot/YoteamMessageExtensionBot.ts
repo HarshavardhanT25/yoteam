@@ -6,7 +6,7 @@ import WelcomeCard from "./cards/welcomeCard";
 import YoteamMessageExtension from "../yoteamMessageExtension/YoteamMessageExtension";
 import { DialogSet, DialogState } from "botbuilder-dialogs";
 // Initialize debug logging module
-const log = debug("msteams");
+// const log = debug("msteams");
 
 /**
  * Implementation for yoteam Message Extension Bot
