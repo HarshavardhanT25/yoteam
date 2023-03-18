@@ -6,6 +6,8 @@ stages:
         displayName: Build and package
         pool:
           vmImage: "ubuntu-latest"
+        strategy:
+          parallel: 1
         steps:
           - task: NodeTool@0
             displayName: Use Node 12.x
