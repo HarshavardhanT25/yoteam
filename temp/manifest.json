@@ -6,9 +6,9 @@
   "packageName": "yoteam",
   "developer": {
     "name": "INRY",
-    "websiteUrl": "https://a643-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io",
-    "privacyUrl": "https://a643-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://a643-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io/tou.html"
+    "websiteUrl": "https://508b-49-37-158-114.ngrok.io",
+    "privacyUrl": "https://508b-49-37-158-114.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://508b-49-37-158-114.ngrok.io/tou.html"
   },
   "name": {
     "short": "CELEBRATE",
@@ -51,7 +51,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "a643-2405-201-c038-d952-c459-8d60-6702-bb4b.ngrok.io"
+    "508b-49-37-158-114.ngrok.io"
   ],
   "showLoadingIndicator": false
 }

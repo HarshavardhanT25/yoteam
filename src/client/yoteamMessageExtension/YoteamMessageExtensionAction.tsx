@@ -415,7 +415,7 @@ export const YoteamMessageExtensionAction = () => {
                     style={{ marginTop: "10px" }}
                     value={user}
                     onChange={(e, data) => {
-                        if (data.value) {
+                        if (data) {
                             setUser(data.value);
                         }
                     }}
@@ -433,8 +433,8 @@ export const YoteamMessageExtensionAction = () => {
                         marginTop: "10px"
                     }}
                     onChange={(e, data) => {
-                        if (data?.value) {
-                            setNote(data.value);
+                        if (data) {
+                            setNote(data.value!);
                         }
                     }}
                     name="personal note"
@@ -457,7 +457,7 @@ export const YoteamMessageExtensionAction = () => {
                     style={{ marginTop: "10px" }}
                     value={category}
                     onChange={(e, data) => {
-                        if (data.value) {
+                        if (data) {
                             setCategory(data.value);
                         }
                     }}
@@ -473,7 +473,7 @@ export const YoteamMessageExtensionAction = () => {
                     style={{ marginTop: "10px" }}
                     value={image}
                     onChange={(e, data) => {
-                        if (data.value) {
+                        if (data) {
                             setImage(data.value);
                         }
                     }}
@@ -511,7 +511,7 @@ export const YoteamMessageExtensionAction = () => {
                     style={{ marginTop: "10px" }}
                     value={user}
                     onChange={(e, data) => {
-                        if (data.value) {
+                        if (data) {
                             setUser(data.value);
                         }
                     }}
@@ -588,8 +588,8 @@ export const YoteamMessageExtensionAction = () => {
                         marginTop: "10px"
                     }}
                     onChange={(e, data) => {
-                        if (data?.value) {
-                            setDescription(data.value);
+                        if (data) {
+                            setDescription(data.value!);
                         }
                     }}
                     name="description"
